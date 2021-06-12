@@ -33,7 +33,7 @@ export default {
   },
   methods: {
     loadCustomers() {
-      let url = "http://localhost:11188/swagger/index.html";
+      let url = "http://localhost:11188/api/Customer";
 
       axios
         .get(url, {})
